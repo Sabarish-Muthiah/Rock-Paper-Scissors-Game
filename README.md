@@ -1,1 +1,2 @@
 # Rock-Paper-Scissors-Game
+Hello! This program is a basic and simple project of a Rock, Paper, Scissors Game. The players of this game are the user and the computer, which is programmed to select rock, paper or scissor randomly using a randomn number generator. This program uses the concept of cout, cin, if, while, do while statements and many more. An error trap is present in this program to make sure that the user is entering the valid input. The score of the game is also outputted. At the end, the user is prompted with a Play Again option to continue their game.
