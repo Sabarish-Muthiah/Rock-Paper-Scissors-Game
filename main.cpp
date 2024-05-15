@@ -20,10 +20,10 @@ int main()
         int computerPlay = rand()%(max-min+1)+min;
 
         system("cls");
-        cout << "Welcome to RPS!" << endl;
-        cout << "=================" << endl;
+        cout << "Welcome to the Rock Paper Scissors Game!" << endl;
+        cout << "========================================" << endl;
 
-        cout << "wins: " << wins << ", losses: " << losses << ", ties: "  << ties << endl;
+        cout << "Wins: " << wins << ", Losses: " << losses << ", Ties: "  << ties << endl;
 
         cout << "1. Rock" << endl;
         cout << "2. Paper" << endl;
@@ -42,18 +42,18 @@ int main()
         }while(userChoice < 1 || userChoice > 3 || !cin.good());
 
         if(userChoice == 1)
-            cout << "You chose ROCK" << endl;
+            cout << "You chose ROCK!" << endl;
         else if(userChoice == 2)
-            cout << "You chose PAPER" << endl;
+            cout << "You chose PAPER!" << endl;
         else if(userChoice == 3)
-            cout << "You chose SCISSORS" << endl;
+            cout << "You chose SCISSORS!" << endl;
 
         if(computerPlay == 1)
-            cout << "The Computer chose ROCK" << endl;
+            cout << "The Computer chose ROCK!" << endl;
         else if(computerPlay == 2)
-            cout << "The Computer chose PAPER" << endl;
+            cout << "The Computer chose PAPER!" << endl;
         else if(computerPlay == 3)
-            cout << "The Computer chose SCISSORS" << endl;
+            cout << "The Computer chose SCISSORS!" << endl;
 
         if(userChoice == computerPlay)
         {
